@@ -33,7 +33,7 @@
     "manpages": "./scripts/docs-build"
   },
   "dependencies": {
-    "grunt": "~0.3.17",
+    "grunt": "http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz",
     "yeoman-generators": "http://github.com/yeoman/generators/archive/0.9.5.tar.gz",
     "bower": "~0.3.0",
     "open": "0.0.2",
