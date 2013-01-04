@@ -67,19 +67,19 @@ More info: yeoman.io/insight.html & http://yeoman.io".yellow + "\n\
 
       prompt.start();
       console.log(msg);
-      prompt.get(properties, function(err, result) {
-        if (err) {
-          return opts.cb(err);
-        }
+      // prompt.get(properties, function(err, result) {
+      //   if (err) {
+      //     return opts.cb(err);
+      //   }
 
-        if (/n/i.test(result.optin)) {
-          cmdStr = insight.script + ' ' +
-                   insight.recordArgs.concat(['NO_STATS']).join(' ');
-          return insight.record(cmdStr, opts.cb);
-        }
+      //   if (/n/i.test(result.optin)) {
+      //     cmdStr = insight.script + ' ' +
+      //              insight.recordArgs.concat(['NO_STATS']).join(' ');
+      //     return insight.record(cmdStr, opts.cb);
+      //   }
 
-        insight.record(cmdStr, opts.cb);
-      });
+      //   insight.record(cmdStr, opts.cb);
+      // });
 
     });
 
