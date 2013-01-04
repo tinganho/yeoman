@@ -65,8 +65,8 @@ More info: yeoman.io/insight.html & http://yeoman.io".yellow + "\n\
         empty: false
       }];
 
-      prompt.start();
-      console.log(msg);
+      // prompt.start();
+      // console.log(msg);
       // prompt.get(properties, function(err, result) {
       //   if (err) {
       //     return opts.cb(err);
